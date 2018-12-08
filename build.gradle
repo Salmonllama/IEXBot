@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'org.crabcraft'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+mainClassName = 'org.crabcraft.iexbot.IEXBot'
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://jitpack.io'
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    // The Javacord API Library for Discord
+    implementation "org.javacord:javacord:3.0.1"
+
+    // The Commandler bot/command framework
+    implementation "com.github.AlaeaCrablet:Commandler:v1.0.0"
+}
