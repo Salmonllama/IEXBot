@@ -3,11 +3,11 @@ plugins {
     id 'application'
 }
 
-group 'org.crabcraft'
+group 'studio.spiderling'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
-mainClassName = 'org.crabcraft.iexbot.IEXBot'
+mainClassName = 'studio.spiderling.iexbot.IEXBot'
 
 repositories {
     mavenCentral()
