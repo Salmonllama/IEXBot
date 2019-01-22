@@ -24,4 +24,7 @@ dependencies {
 
     // The Commandler bot/command framework
     implementation "com.github.AlaeaCrablet:Commandler:v1.0.0"
+
+    // A pre-built IEX API library
+    implementation "pl.zankowski:iextrading4j-all:2.3.0"
 }
